@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winsa Synergy | Fuel the Fun. Power Your Home.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background: linear-gradient(135deg, #064e3b, #0f172a);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 3px solid #d4af37;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #d4af37;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: #10b981;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #d4af37;
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1558618047-f4c5c2c0c0c0') center/cover;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            padding: 0 5%;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .hero-content {
+            max-width: 900px;
+        }
+
+        .hero h1 {
+            font-size: 3.8rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(to right, #10b981, #d4af37);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            margin-bottom: 2.5rem;
+            color: #e2e8f0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            margin: 0.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(16, 185, 129, 0.6);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #d4af37;
+            color: #d4af37;
+        }
+
+        .btn-secondary:hover {
+            background: #d4af37;
+            color: #0a0a0a;
+        }
+
+        /* ===== SECTIONS ===== */
+        section {
+            padding: 5rem 5%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 3rem;
+            color: #d4af37;
+        }
+
+        /* Products */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .product-card {
+            background: #111827;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid #1f2937;
+            transition: 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            border-color: #10b981;
+            box-shadow: 0 20px 40px rgba(16, 185, 129, 0.2);
+        }
+
+        .product-img {
+            height: 220px;
+            background: #1f2937;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+        }
+
+        .product-info {
+            padding: 1.5rem;
+        }
+
+        .product-info h3 {
+            color: #10b981;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Services */
+        .services {
+            background: linear-gradient(135deg, #064e3b, #0f172a);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: rgba(255,255,255,0.05);
+            padding: 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .service-card h3 {
+            color: #d4af37;
+            margin: 1rem 0;
+            font-size: 1.5rem;
+        }
+
+        /* CTA */
+        .cta {
+            text-align: center;
+            background: #111827;
+        }
+
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #020617;
+            padding: 3rem 5%;
+            text-align: center;
+            border-top: 3px solid #d4af37;
+        }
+
+        footer p {
+            color: #94a3b8;
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            nav {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">WINSA <span>Synergy</span></div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Fuel the Fun.<br>Power Your Home.</h1>
+            <p>First-hand kids riding gear, electronics & appliances + fast errands and deliveries across Nairobi CBD</p>
+            <div>
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+                <a href="#services" class="btn btn-secondary">Book Delivery / Errand</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products">
+        <h2 class="section-title">Our Products</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-img">🚲</div>
+                <div class="product-info">
+                    <h3>Kids Riding Gear</h3>
+                    <p>Bikes, hoverboards, skateboards, skates, toy cars & riding accessories – brand new & ready for adventure.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">📱</div>
+                <div class="product-info">
+                    <h3>Phones & Computers</h3>
+                    <p>Latest smartphones, laptops and computers – genuine first-hand devices.</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img">📺</div>
+                <div class="product-info">
+                    <h3>Home Appliances</h3>
+                    <p>TVs, fridges, cookers and more – quality appliances for every home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <h2 class="section-title">Errands & Deliveries</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div style="font-size: 3rem;">🚀</div>
+                <h3>Fast Deliveries</h3>
+                <p>Same-day and scheduled deliveries across Nairobi CBD. We bring your products straight to your door.</p>
+            </div>
+            <div class="service-card">
+                <div style="font-size: 3rem;">✅</div>
+                <h3>Personal Errands</h3>
+                <p>Shopping, bill payments, pickups, and any task you need done – we handle it for you.</p>
+            </div>
+            <div class="service-card">
+                <div style="font-size: 3rem;">📍</div>
+                <h3>Nairobi CBD Based</h3>
+                <p>Located in the heart of Nairobi CBD for quick response and reliable service.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="contact">
+        <h2>Ready to order or need an errand done?</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2rem;">Message us now on WhatsApp or call – we respond fast!</p>
+        <a href="https://wa.me/254XXXXXXXXX" class="btn btn-primary">Chat on WhatsApp</a>
+        <a href="tel:+254XXXXXXXXX" class="btn btn-secondary">Call Us</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="logo">WINSA <span>Synergy</span></div>
+        <p>Fuel the Fun. Power Your Home. Delivered Fast in Nairobi.</p>
+        <p>© 2026 Winsa Synergy • Nairobi CBD • Founded 2024</p>
+    </footer>
+
+</body>
+</html>
