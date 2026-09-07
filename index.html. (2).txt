@@ -1,0 +1,637 @@
+    <section id="products">
+    <h2 class="section-title">Product Cata
+    </h2>
+    <p class="catalog-intro">
+        First-hand kids riding gear, phones, computers and home appliances.
+        Tap any item to order on WhatsApp. Delivery and errands across Nairobi CBD.
+    </p>
+
+    <div class="catalog-nav">
+        <a href="#kids-gear">Kids Riding Gear</a>
+        <a href="#phones">Phones</a>
+        <a href="#computers">Computers</a>
+        <a href="#appliances">Home Appliances</a>
+        <a href="#accessories">Accessories</a>
+        <a href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20to%20see%20your%20full%20catalog.">Full catalog on WhatsApp</a>
+    </div>
+
+    <div class="catalog-group" id="kids-gear">
+        <h3>Kids Riding Gear</h3>
+        <div class="products-grid">
+
+            <div class="product-card">
+                <div class="product-img">🚲</div>
+                <div class="product-info">
+                    <h3>Kids Bicycle 12"</h3>
+                    <p>Brand new first-hand bike for toddlers.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20the%20Kids%20Bicycle%2012%22.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🚲</div>
+                <div class="product-info">
+                    <h3>Kids Bicycle 16"</h3>
+                    <p>First-hand bike for ages 4–7.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20the%20Kids%20Bicycle%2016%22.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🚲</div>
+                <div class="product-info">
+                    <h3>Kids Bicycle 20"</h3>
+                    <p>Bigger kids bike, first-hand stock.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20the%20Kids%20Bicycle%2020%22.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🚲</div>
+                <div class="product-info">
+                    <h3>Kids Bicycle 24"</h3>
+                    <p>First-hand bicycle for older kids.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20the%20Kids%20Bicycle%2024%22.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">⚡</div>
+                <div class="product-info">
+                    <h3>Kids Electric Bike</h3>
+                    <p>Rechargeable kids e-bike. Confirm stock first.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Kids%20Electric%20Bike.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🛹</div>
+                <div class="product-info">
+                    <h3>Hoverboard</h3>
+                    <p>Kids hoverboard with charger.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Hoverboard.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🛹</div>
+                <div class="product-info">
+                    <h3>Self-Balancing Scooter</h3>
+                    <p>First-hand balancing scooter for kids.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Self-Balancing%20Scooter.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🛴</div>
+                <div class="product-info">
+                    <h3>Kids Kick Scooter</h3>
+                    <p>2-wheel or 3-wheel scooter.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Kids%20Kick%20Scooter.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🛴</div>
+                <div class="product-info">
+                    <h3>Kids Electric Scooter</h3>
+                    <p>Rechargeable scooter for kids.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Kids%20Electric%20Scooter.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🛹</div>
+                <div class="product-info">
+                    <h3>Skateboard</h3>
+                    <p>Kids and beginner skateboard.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Skateboard.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🛼</div>
+                <div class="product-info">
+                    <h3>Roller Skates</h3>
+                    <p>Adjustable kids roller skates.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20Roller%20Skates.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">⛸️</div>
+                <div class="product-info">
+                    <h3>Inline Skates</h3>
+                    <p>Kids inline skates, first-hand.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20Inline%20Skates.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🚗</div>
+                <div class="product-info">
+                    <h3>Kids Ride-On Car</h3>
+                    <p>Battery toy car for kids.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Kids%20Ride-On%20Car.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🏍️</div>
+                <div class="product-info">
+                    <h3>Kids Ride-On Bike / ATV</h3>
+                    <p>Electric ride-on motorcycle or mini ATV.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Kids%20Ride-On%20Bike%20or%20ATV.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🪖</div>
+                <div class="product-info">
+                    <h3>Kids Helmet</h3>
+                    <p>Safety helmet for bikes and scooters.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Kids%20Helmet.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🛡️</div>
+                <div class="product-info">
+                    <h3>Knee & Elbow Pads</h3>
+                    <p>Kids protective pad set.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20Kids%20Knee%20and%20Elbow%20Pads.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🔔</div>
+                <div class="product-info">
+                    <h3>Bike Accessories</h3>
+                    <p>Bells, lights, training wheels, bottles.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20Kids%20Bike%20Accessories.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="catalog-group" id="phones">
+        <h3>Phones</h3>
+        <div class="products-grid">
+
+            <div class="product-card">
+                <div class="product-img">📱</div>
+                <div class="product-info">
+                    <h3>Android Smartphone</h3>
+                    <p>Genuine first-hand Android phones.</p>
+                    <p class="price">Ask model & price</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20first-hand%20Android%20smartphone.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">📱</div>
+                <div class="product-info">
+                    <h3>iPhone</h3>
+                    <p>First-hand iPhone. Ask available models.</p>
+                    <p class="price">Ask model & price</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20first-hand%20iPhone.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">📱</div>
+                <div class="product-info">
+                    <h3>Budget Phone</h3>
+                    <p>Affordable first-hand smartphone.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20budget%20first-hand%20phone.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">📱</div>
+                <div class="product-info">
+                    <h3>Mid-Range Phone</h3>
+                    <p>Everyday first-hand smartphone.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20mid-range%20first-hand%20phone.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">📱</div>
+                <div class="product-info">
+                    <h3>Flagship Phone</h3>
+                    <p>High-end first-hand smartphone.</p>
+                    <p class="price">Ask model & price</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20flagship%20first-hand%20phone.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">📞</div>
+                <div class="product-info">
+                    <h3>Feature / Button Phone</h3>
+                    <p>Simple first-hand phone.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20feature%20phone.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🎧</div>
+                <div class="product-info">
+                    <h3>Phone + Earphones Bundle</h3>
+                    <p>Phone package with basic accessories.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20phone%20and%20earphones%20bundle.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="catalog-group" id="computers">
+        <h3>Computers</h3>
+        <div class="products-grid">
+
+            <div class="product-card">
+                <div class="product-img">💻</div>
+                <div class="product-info">
+                    <h3>Student Laptop</h3>
+                    <p>First-hand laptop for school and assignments.</p>
+                    <p class="price">Ask spec & price</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20student%20laptop.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">💻</div>
+                <div class="product-info">
+                    <h3>Office Laptop</h3>
+                    <p>First-hand laptop for work and office use.</p>
+                    <p class="price">Ask spec & price</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20an%20office%20laptop.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🎮</div>
+                <div class="product-info">
+                    <h3>Gaming Laptop</h3>
+                    <p>Higher-spec first-hand laptop. Confirm stock.</p>
+                    <p class="price">Ask spec & price</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20gaming%20laptop.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">💻</div>
+                <div class="product-info">
+                    <h3>2-in-1 Laptop / Tablet PC</h3>
+                    <p>Touchscreen convertible computer.</p>
+                    <p class="price">Ask spec & price</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%202-in-1%20laptop.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🖥️</div>
+                <div class="product-info">
+                    <h3>Desktop Computer</h3>
+                    <p>First-hand desktop for home or shop.</p>
+                    <p class="price">Ask spec & price</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20desktop%20computer.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🖥️</div>
+                <div class="product-info">
+                    <h3>All-in-One PC</h3>
+                    <p>Screen and computer in one unit.</p>
+                    <p class="price">Ask spec & price</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20an%20All-in-One%20PC.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">📟</div>
+                <div class="product-info">
+                    <h3>Tablet</h3>
+                    <p>First-hand Android or iPad tablet.</p>
+                    <p class="price">Ask model & price</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20tablet.">Check stock</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🖨️</div>
+                <div class="product-info">
+                    <h3>Printer</h3>
+                    <p>Home or office printer.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20printer.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="catalog-group" id="appliances">
+        <h3>Home Appliances</h3>
+        <div class="products-grid">
+
+            <div class="product-card">
+                <div class="product-img">📺</div>
+                <div class="product-info">
+                    <h3>Smart TV 32"</h3>
+                    <p>First-hand 32-inch TV.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%2032%20inch%20Smart%20TV.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">📺</div>
+                <div class="product-info">
+                    <h3>Smart TV 43"</h3>
+                    <p>First-hand 43-inch TV.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%2043%20inch%20Smart%20TV.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">📺</div>
+                <div class="product-info">
+                    <h3>Smart TV 50"</h3>
+                    <p>First-hand 50-inch TV.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%2050%20inch%20Smart%20TV.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">📺</div>
+                <div class="product-info">
+                    <h3>Smart TV 55"</h3>
+                    <p>First-hand 55-inch TV.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%2055%20inch%20Smart%20TV.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">📺</div>
+                <div class="product-info">
+                    <h3>Smart TV 65"</h3>
+                    <p>First-hand large-screen TV.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%2065%20inch%20Smart%20TV.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">❄️</div>
+                <div class="product-info">
+                    <h3>Single Door Fridge</h3>
+                    <p>Compact fridge for bedsitter or apartment.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20single%20door%20fridge.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">❄️</div>
+                <div class="product-info">
+                    <h3>Double Door Fridge</h3>
+                    <p>Family fridge, first-hand.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20double%20door%20fridge.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🧊</div>
+                <div class="product-info">
+                    <h3>Freezer</h3>
+                    <p>Chest or upright freezer.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20freezer.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🔥</div>
+                <div class="product-info">
+                    <h3>Gas Cooker</h3>
+                    <p>2-burner, 3-burner or 4-burner cooker.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20gas%20cooker.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🍳</div>
+                <div class="product-info">
+                    <h3>Electric Cooker</h3>
+                    <p>Electric cooker or hot plate.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20an%20electric%20cooker.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🧺</div>
+                <div class="product-info">
+                    <h3>Washing Machine</h3>
+                    <p>Top-load or front-load machine.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20washing%20machine.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🌀</div>
+                <div class="product-info">
+                    <h3>Microwave</h3>
+                    <p>Home microwave oven.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20microwave.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">💨</div>
+                <div class="product-info">
+                    <h3>Blender / Juicer</h3>
+                    <p>Kitchen blender or juice maker.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20blender%20or%20juicer.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">♨️</div>
+                <div class="product-info">
+                    <h3>Electric Kettle</h3>
+                    <p>Fast-boil home kettle.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20an%20electric%20kettle.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🍞</div>
+                <div class="product-info">
+                    <h3>Toaster / Sandwich Maker</h3>
+                    <p>Breakfast appliances.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20toaster%20or%20sandwich%20maker.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🌀</div>
+                <div class="product-info">
+                    <h3>Standing Fan</h3>
+                    <p>Home standing fan.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20standing%20fan.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">❄️</div>
+                <div class="product-info">
+                    <h3>Air Conditioner</h3>
+                    <p>Home AC. Confirm size and stock.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20an%20air%20conditioner.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">💧</div>
+                <div class="product-info">
+                    <h3>Water Dispenser</h3>
+                    <p>Hot and cold water dispenser.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20water%20dispenser.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🔊</div>
+                <div class="product-info">
+                    <h3>Home Theatre / Speaker</h3>
+                    <p>Home sound system or Bluetooth speaker.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20home%20theatre%20or%20speaker.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🔌</div>
+                <div class="product-info">
+                    <h3>Extension / Stabilizer</h3>
+                    <p>Power extension or voltage stabilizer.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20an%20extension%20or%20stabilizer.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="catalog-group" id="accessories">
+        <h3>Accessories</h3>
+        <div class="products-grid">
+
+            <div class="product-card">
+                <div class="product-img">🎧</div>
+                <div class="product-info">
+                    <h3>Earphones / Headphones</h3>
+                    <p>Wired or wireless audio.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20earphones%20or%20headphones.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🔋</div>
+                <div class="product-info">
+                    <h3>Power Bank</h3>
+                    <p>Phone charging power bank.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20power%20bank.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🔌</div>
+                <div class="product-info">
+                    <h3>Chargers & Cables</h3>
+                    <p>Phone and laptop chargers.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20chargers%20and%20cables.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">⌚</div>
+                <div class="product-info">
+                    <h3>Smart Watch</h3>
+                    <p>First-hand smart watch.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20smart%20watch.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🖱️</div>
+                <div class="product-info">
+                    <h3>Mouse & Keyboard</h3>
+                    <p>Computer accessories.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20mouse%20and%20keyboard.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">🛡️</div>
+                <div class="product-info">
+                    <h3>Phone Cover / Screen Protector</h3>
+                    <p>Protection for phones.</p>
+                    <p class="price">Ask price on WhatsApp</p>
+                    <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20phone%20cover%20or%20screen%20protector.">Order on WhatsApp</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <p class="catalog-intro">
+        Don’t see your item?
+        <a class="btn btn-primary" href="https://wa.me/254716911797?text=Hi%20Winsa%20Synergy%2C%20I%20am%20looking%20for%20an%20item%20that%20is%20not%20listed.%20Please%20help%20me%20check.">Ask on WhatsApp</a>
+    </p>
+</section>
