@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winsa Synergy | Fuel the Fun. Power Your Home.</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #064e3b, #0f172a);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 3px solid #d4af37;
+        }
+        .logo { font-size: 1.8rem; font-weight: 800; color: #d4af37; letter-spacing: 1px; }
+        .logo span { color: #10b981; }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 600;
+        }
+        nav a:hover { color: #d4af37; }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), #064e3b;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 5%;
+            text-align: center;
+        }
+        .hero-content { max-width: 900px; }
+        .hero h1 {
+            font-size: 3.8rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(to right, #10b981, #d4af37);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero p { font-size: 1.4rem; margin-bottom: 2.5rem; color: #e2e8f0; }
+        .btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            margin: 0.5rem;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+        }
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #d4af37;
+            color: #d4af37;
+        }
+        section { padding: 5rem 5%; }
+        .section-title {
+            text-align: center;
+            font-size: 2.8rem;
+            margin-bottom: 2rem;
+            color: #d4af37;
+        }
+        .catalog-intro {
+            text-align: center;
+            max-width: 720px;
+            margin: 0 auto 2rem;
+            color: #e2e8f0;
+        }
+        .catalog-nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 2.5rem;
+        }
+        .catalog-nav a {
+            color: #d4af37;
+            text-decoration: none;
+            border: 1px solid rgba(212,175,55,0.4);
+            padding: 0.45rem 0.9rem;
+            border-radius: 999px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        .catalog-group { margin-bottom: 3.5rem; }
+        .catalog-group h3 {
+            color: #10b981;
+            font-size: 1.6rem;
+            margin-bottom: 1.25rem;
+            border-left: 4px solid #d4af37;
+            padding-left: 0.75rem;
+        }
+        .products-grid, .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 2rem;
+        }
+        .product-card {
+            background: #111827;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid #1f2937;
+        }
+        .product-img {
+            height: 160px;
+            background: #1f2937;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5rem;
+        }
+        .product-info { padding: 1.5rem; }
+        .product-info h3 { color: #10b981; margin-bottom: 0.5rem; }
+        .price { color: #d4af37; font-weight: 800; margin: 0.75rem 0 1rem; }
+        .product-info .btn { margin: 0; padding: 0.7rem 1.1rem; font-size: 0.9rem; }
+        .services { background: linear-gradient(135deg, #064e3b, #0f172a); }
+        .service-card {
+            background: rgba(255,255,255,0.05);
+            padding: 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+        .service-card h3 { color: #d4af37; margin: 1rem 0; }
+        .cta { text-align: center; background: #111827; }
+        .cta h2 { font-size: 2.5rem; margin-bottom: 1.5rem; }
+        footer {
+            background: #020617;
+            padding: 3rem 5%;
+            text-align: center;
+            border-top: 3px solid #d4af37;
+        }
+        footer p { color: #94a3b8; margin-top: 1rem; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            nav { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">WINSA <span>Synergy</span></div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Fuel the Fun.<br>Power Your Home.</h1>
+            <p>First-hand kids riding gear, electronics & appliances + fast errands and deliveries across Nairobi CBD</p>
+            <div>
+                <a class="btn btn-primary" target="_blank" rel="noopener"
+                   href="https://api.whatsapp.com/send?phone=254716911797&text=Hi%20Winsa%20Synergy%2C%20I%20want%20to%20see%20your%20products.">Shop on WhatsApp</a>
+                <a href="#products" class="btn btn-secondary">View Catalog</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2 class="section-title">Product Catalog</h2>
+        <p class="catalog-intro">Tap any item to order on WhatsApp: 0716 911 797. Delivery across Nairobi CBD.</p>
+        <div class="catalog-nav">
+            <a href="#kids-gear">Kids Gear</a>
+            <a href="#phones">Phones</a>
+            <a href="#computers">Computers</a>
+            <a href="#appliances">Appliances</a>
+            <a href="#accessories">Accessories</a>
+            <a target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=254716911797&text=Hi%20Winsa%20Synergy%2C%20I%20want%20to%20see%20your%20full%20catalog.">Full catalog on WhatsApp</a>
+        </div>
+
+        <div class="catalog-group" id="kids-gear">
+            <h3>Kids Riding Gear</h3>
+            <div class="products-grid">
+                <div class="product-card"><div class="product-img">🚲</div><div class="product-info"><h3>Kids Bicycle 12"</h3><p>First-hand bike for toddlers.</p><p class="price">Ask price on WhatsApp</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=254716911797&text=Hi%20Winsa%20Synergy%2C%20I%20want%20the%20Kids%20Bicycle%2012%22.">Order on WhatsApp</a></div></div>
+                <div class="product-card"><div class="product-img">🚲</div><div class="product-info"><h3>Kids Bicycle 16"</h3><p>First-hand bike for ages 4–7.</p><p class="price">Ask price on WhatsApp</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=254716911797&text=Hi%20Winsa%20Synergy%2C%20I%20want%20the%20Kids%20Bicycle%2016%22.">Order on WhatsApp</a></div></div>
+                <div class="product-card"><div class="product-img">🚲</div><div class="product-info"><h3>Kids Bicycle 20"</h3><p>Bigger kids bike, first-hand.</p><p class="price">Ask price on WhatsApp</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=254716911797&text=Hi%20Winsa%20Synergy%2C%20I%20want%20the%20Kids%20Bicycle%2020%22.">Order on WhatsApp</a></div></div>
+                <div class="product-card"><div class="product-img">🚲</div><div class="product-info"><h3>Kids Bicycle 24"</h3><p>First-hand bike for older kids.</p><p class="price">Ask price on WhatsApp</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=254716911797&text=Hi%20Winsa%20Synergy%2C%20I%20want%20the%20Kids%20Bicycle%2024%22.">Order on WhatsApp</a></div></div>
+                <div class="product-card"><div class="product-img">⚡</div><div class="product-info"><h3>Kids Electric Bike</h3><p>Rechargeable kids e-bike.</p><p class="price">Ask price on WhatsApp</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=254716911797&text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Kids%20Electric%20Bike.">Order on WhatsApp</a></div></div>
+                <div class="product-card"><div class="product-img">🛹</div><div class="product-info"><h3>Hoverboard</h3><p>Kids hoverboard with charger.</p><p class="price">Ask price on WhatsApp</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=254716911797&text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Hoverboard.">Order on WhatsApp</a></div></div>
+                <div class="product-card"><div class="product-img">🛴</div><div class="product-info"><h3>Kids Kick Scooter</h3><p>2-wheel or 3-wheel scooter.</p><p class="price">Ask price on WhatsApp</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=254716911797&text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Kids%20Kick%20Scooter.">Order on WhatsApp</a></div></div>
+                <div class="product-card"><div class="product-img">🛴</div><div class="product-info"><h3>Kids Electric Scooter</h3><p>Rechargeable scooter for kids.</p><p class="price">Ask price on WhatsApp</p><a class="btn btn-primary" target="_blank" rel="noopener" href="https://api.whatsapp.com/send?phone=254716911797&text=Hi%20Winsa%20Synergy%2C%20I%20want%20a%20Kids%20Electric%20Scooter.">Order on WhatsApp</a></div></div>
+                <div class="product-card"><div class="product-img">🛹</div><div class="product-info"><h3>Skateboard</h3><p>Kids and beginner skateboard.</p><p class="price">Ask price on WhatsApp</p><a class="btn btn-primary"
